@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@tailwind base;
+    #toogle:checked ~ label div.toogle-dot{
+        @apply translate-x-3;
+    }
+
+@tailwind components;
+@tailwind utilities;
+
+.wrapper{
+    width:300%;
+    min-height:100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+.card{
+    width:100%;
+    background-color: #fff;
+    padding:20px;
+    margin: 0 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius:16px;
+    align-items: center;
+    justify-content: center;
+    min-height:100%;
+    display:flex;
+    
+}
+.card-thumb{
+    width:70%;
+    height:250px;
+    overflow:hidden;
+    position:relative;
+}
+.foto{
+    width:80%;
+    height:100%;
+    object-fit:cover;
+}
+.nama{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    padding: 5px 20px;
+    background-color:white;
+    text-transform: capitalize;
+    font-size:14px;
+}
+.card-body{
+    width:100%;
+    min-height:100%;
+    height:auto;
+    margin-left:20px;
+    position:relative;
+    padding-bottom:50px;
+    text-align:justify;
+    padding-right:30px;
+}
+.rating{
+    position:absolute;
+    bottom:10px;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.indicators{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+.indicators button{
+    background:none;
+    border:none;
+    outline:none;
+    width:15px;
+    height:15px;
+    border-radius:16px;
+    border:2px solid black;
+    transition:0.5s;
+}
+button.active{
+    width:40px;
+    border-radius:50px;
+    background:black;
+}

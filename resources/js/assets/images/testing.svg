@@ -1,0 +1,20 @@
+<svg width="591" height="551" viewBox="0 0 591 551" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 589">
+<rect id="Rectangle 466" width="550" height="488" rx="9" fill="url(#paint0_linear_481_3998)"/>
+<g id="Group 588">
+<rect id="Rectangle 467" x="41" y="63" width="550" height="488" rx="9" fill="#B9C3CA"/>
+<g id="Group 590">
+<path id="Rectangle 468" d="M41 72C41 67.0294 45.0294 63 50 63H582C586.971 63 591 67.0294 591 72V93H41V72Z" fill="#FA7AA7"/>
+<circle id="Ellipse 761" cx="60" cy="78" r="7" fill="#F5BDD4"/>
+<circle id="Ellipse 762" cx="82" cy="78" r="7" fill="#F3C86D"/>
+<circle id="Ellipse 763" cx="104" cy="78" r="7" fill="#80D0CC"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_481_3998" x1="610.5" y1="569" x2="-314" y2="-294" gradientUnits="userSpaceOnUse">
+<stop stop-color="#94AEC6"/>
+<stop offset="1" stop-color="#FA7AA7"/>
+</linearGradient>
+</defs>
+</svg>
